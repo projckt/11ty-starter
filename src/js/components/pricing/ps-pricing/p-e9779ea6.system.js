@@ -1,0 +1,1 @@
+System.register(["./p-1caf9578.system.js"],(function(){"use strict";var e,t;return{setters:[function(n){e=n.p;t=n.b}],execute:function(){e().then((function(e){return t([["p-swcljppw.system",[[0,"ps-pricing",{billingPeriod:[32],sliderIndex:[32],price:[32]}]]]],e)}))}}}));
