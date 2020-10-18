@@ -5,7 +5,7 @@ module.exports = (eleventyConfig) => {
   return {
     dir: {
       input: "src",
-      output: "dest",
+      output: "www",
     },
     templateFormats: ["njk"],
   };

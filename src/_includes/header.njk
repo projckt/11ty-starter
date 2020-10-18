@@ -1,0 +1,30 @@
+<header>
+    this is header
+    <nav>
+        {% if pageTitle === "Home" %}
+            <ul id="menu-link-list">
+                <li>
+                    <a class="menu-links" href="/">About Us</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="page1/">Our Clients</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="page2/">Our Services</a>
+                </li>
+            </ul>
+        {% else %}
+            <ul id="menu-link-list">
+                <li>
+                    <a class="menu-links" href="../">About Us</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="../page1">Our Clients</a>
+                </li>
+                <li>
+                    <a class="menu-links" href="../page2">Our Services</a>
+                </li>
+            </ul>
+        {% endif %}
+    </nav>
+</header>

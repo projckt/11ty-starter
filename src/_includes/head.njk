@@ -1,0 +1,15 @@
+<head>
+    <meta charset="utf-8"/>
+    <title>{{ pageTitle }}&nbsp;&nbsp;::&nbsp;&nbsp;{{site.name}}</title>
+    <meta name="Description" content="An advertising & communications agency"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
+
+    /* add font */ /* replace page title with isIndex */
+    {% if pageTitle === "Home" %}
+        <link href="css/index.css" rel="stylesheet"/>
+    {% else %}
+        <link href="../css/index.css" rel="stylesheet"/>
+    {% endif %}
+</head>
