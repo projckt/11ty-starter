@@ -1,28 +1,28 @@
 <header>
     this is header
     <nav>
-        {% if pageTitle === "Home" %}
+        {% if isIndexPage %}
             <ul id="menu-link-list">
                 <li>
-                    <a class="menu-links" href="/">About Us</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a class="menu-links" href="page1/">Our Clients</a>
+                    <a href="page1/">Page1</a>
                 </li>
                 <li>
-                    <a class="menu-links" href="page2/">Our Services</a>
+                    <a href="page2/">Page2</a>
                 </li>
             </ul>
         {% else %}
             <ul id="menu-link-list">
                 <li>
-                    <a class="menu-links" href="../">About Us</a>
+                    <a href="../">Home</a>
                 </li>
                 <li>
-                    <a class="menu-links" href="../page1">Our Clients</a>
+                    <a href="../page1">Page1</a>
                 </li>
                 <li>
-                    <a class="menu-links" href="../page2">Our Services</a>
+                    <a href="../page2">Page2</a>
                 </li>
             </ul>
         {% endif %}
