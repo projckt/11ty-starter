@@ -1,3 +1,3 @@
 (() => {
-    alert("hiieeeee");
+    console.log("test");
 })()

@@ -1,5 +1,5 @@
 {
-  "name": "particlesystems-website-frontend",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-particle-systems:particle-systems/website-frontend.git"
+    "url": ""
   },
   "author": "Tuhin Bhuyan",
   "license": "ISC",
