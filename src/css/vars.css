@@ -1,3 +1,65 @@
 :root {
-  --dark-base: #121212;
+  /* Base Properties */
+  --base-theme-color: #121212;
+  --base-font-size: 16px;
+  --base-font-color: white;
+
+  /* Width Properties */
+  --full-width: 100%;
+  --content-width: 95%;
+
+  /* Elevation Properties */
+  --dp00: 0%;
+  --dp01: 5%;
+  --dp02: 7%;
+  --dp03: 8%;
+  --dp04: 9%;
+  --dp06: 11%;
+  --dp08: 12%;
+  --dp12: 14%;
+  --dp16: 15%;
+  --dp24: 16%;
+
+  /* Branded dark surface::
+    Overlay the primary brand color at 8% (dp03) opacity over Base Theme Color (#121212) */
+
+  /* Typography::
+    Required contrast level between white text & surface: 15.8:1 
+    Required contrast level at the highest (and lightest) elevated surface: 4.5:1 */
+  --font-color-black: rgba(0, 0, 0, 1);
+  --font-color-black-high-emphasis: rgba(0, 0, 0, 0.87);
+  --font-color-black-mid-emphasis: rgba(0, 0, 0, 0.6);
+  --font-color-black-low-emphasis: rgba(0, 0, 0, 0.38);
+  --font-color-white: rgba(255, 255, 255, 1);
+  --font-color-white-high-emphasis: rgba(255, 255, 255, 0.87);
+  --font-color-white-mid-emphasis: rgba(255, 255, 255, 0.6);
+  --font-color-white-low-emphasis: rgba(255, 255, 255, 0.38);
+
+  /* Primary Color & it's variants */
+  --primary-color-50: #e1f5fe;
+  --primary-color-100: #b3e5fc;
+  --primary-color-200: #81d4fa;
+  --primary-color-300: #4fc3f7;
+  --primary-color-400: #29b6f6;
+  --primary-color-500: #03a9f4;
+  --primary-color-600: #039be5;
+  --primary-color-700: #0288d1;
+  --primary-color-800: #0277bd;
+  --primary-color-900: #01579b;
+  --primary-color-a100: #80d8ff;
+  --primary-color-a200: #40c4ff;
+  --primary-color-a400: #00b0ff;
+  --primary-color-a700: #0091ea;
+  --dark-bg-branded-primary: #111e24;
+
+  /* All about BGs */
+  --dark-bg-overlay-hover: rgba(255, 255, 255, 0.04);
+  --dark-bg-overlay-focused: rgba(255, 255, 255, 0.12);
+  --dark-bg-overlay-pressed: rgba(255, 255, 255, 0.1);
+  --dark-bg-overlay-dragged: rgba(255, 255, 255, 0.08); /* shadow: dp08 */
+  --dark-bg-stroke-focused: rgba(255, 255, 255, 1);
+
+  /* Error & Success states */
+  --error-bg-color: #cf6679;
+  --success-bg-color: #03dac6;
 }
